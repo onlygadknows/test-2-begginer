@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #F0F1F3;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 1em;
+    color: #ffff;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+}
+
+.btn {
+    padding: 50px 90px;
+    margin: 0 1em;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    cursor: pointer;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffff;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .crash {
+    background: url(/img/crash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.tom {
+    background: url(/img/drum.jpg) no-repeat;
+    background-size: cover;
+}
+
+.kick {
+    background: url(/img/kick.webp) no-repeat;
+    background-size: cover;
+}
+
+.snare {
+    background: url(/img/snare.webp) no-repeat;
+    background-size: cover;
+} */
+
+.btn:active {
+    background-size: 103%;
+}
+
+.btn:hover {
+    color: skyblue;
+}
